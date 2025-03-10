@@ -9,7 +9,7 @@ services:
       - viatab-app
 
   viatab-app:
-    build: ../workspaces/DOC_Assignment   # Adjust this path to your Spring Boot app location
+    build: ../../workspaces/DOC_Assignment
     ports:
       - "8080:8080"
     environment:
