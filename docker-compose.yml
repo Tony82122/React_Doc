@@ -9,7 +9,7 @@ services:
       - viatab-app
 
   viatab-app:
-    build: ../../workspaces/DOC_Assignment
+    build: C:/Users/tony8/Devops_Exercises_assignment/DOC_Assignment
     ports:
       - "8080:8080"
     environment:
